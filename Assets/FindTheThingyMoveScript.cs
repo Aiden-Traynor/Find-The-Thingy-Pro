@@ -9,21 +9,14 @@ public class FindTheThingyMoveScript : MonoBehaviour
   Rigidbody R;
   public float JumpHeight;
   bool jumping = false;
-  bool OnCollisionEnter;
     // Start is called before the first frame update
     void Start()
     {
-void OnCollisionEnter(Collider other) 
-{
-		if(other.tag.Equals("Ground")) //if we hit the floor, we are no longer jumping
-{
-	jumping = false;
-		}
-	}
+
       Speed = 8f;
       RotationSpeed = 130f;
       R = GetComponent<Rigidbody>();
-      JumpHeight = 1f;
+      JumpHeight = 3f;
 
     }
 
@@ -72,4 +65,11 @@ void OnCollisionEnter(Collider other)
 
         }
     }
+void OnCollisionEnter(Collision other) 
+{
+		if(other.collider.tag.Equals("Ground")) //if we hit the floor, we are no longer jumping
+{
+	jumping = false;
+		}
+	}
  }
