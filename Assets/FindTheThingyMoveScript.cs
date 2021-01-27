@@ -16,7 +16,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
       Speed = 8f;
       RotationSpeed = 130f;
       R = GetComponent<Rigidbody>();
-      JumpHeight = 3f;
+      JumpHeight = 400f;
 
     }
 
@@ -43,10 +43,10 @@ public class FindTheThingyMoveScript : MonoBehaviour
         }
         if (!jumping && Input.GetKey(KeyCode.Space)){
             //move forward line
-            R.MovePosition(transform.position + transform.up * JumpHeight );
+            R.AddForce( Vector3.up * JumpHeight );
 	jumping = true;
 
-        
+
 
         }
     }
