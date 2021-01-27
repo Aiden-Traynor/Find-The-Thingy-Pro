@@ -46,26 +46,11 @@ public class FindTheThingyMoveScript : MonoBehaviour
             R.MovePosition(transform.position + transform.up * JumpHeight );
 	jumping = true;
 
-            // if (Input.GetKey(KeyCode.UpArrow)){
-            //     //move forward line
-            //     R.MovePosition(transform.position + transform.forward * Speed * Time.deltaTime);
-            //   }
-            //   else if (Input.GetKey(KeyCode.DownArrow)) {
-            //       //move back line
-            //       R.MovePosition(transform.position - transform.forward * Speed * Time.deltaTime);
-            //     }
-            // if (Input.GetKey(KeyCode.LeftArrow)) {
-            //     //rotate left line
-            //     transform.Rotate(-Vector3.up * RotationSpeed * Time.deltaTime); /* note the minus sign */
-            // }
-            // else if (Input.GetKey(KeyCode.RightArrow)) {
-            //     //rotate right line
-            //     transform.Rotate(Vector3.up * RotationSpeed * Time.deltaTime);
-            //   }
+        
 
         }
     }
-void OnCollisionEnter(Collision other) 
+void OnCollisionEnter(Collision other)
 {
 		if(other.collider.tag.Equals("Ground")) //if we hit the floor, we are no longer jumping
 {
