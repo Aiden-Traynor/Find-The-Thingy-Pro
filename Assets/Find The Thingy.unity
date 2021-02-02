@@ -762,6 +762,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 30c0327af5b1c49fc98937a31d24dcf0,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c0eabae687e2e49f492ee3a0878a3d9c, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 30c0327af5b1c49fc98937a31d24dcf0,
+        type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30c0327af5b1c49fc98937a31d24dcf0, type: 3}
 --- !u!1 &594160212
@@ -789,13 +799,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594160212}
-  m_LocalRotation: {x: 0.2164396, y: -0, z: -0, w: 0.97629607}
-  m_LocalPosition: {x: 0.02, y: 2.97, z: -3.66}
+  m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
+  m_LocalPosition: {x: 0.02, y: 1.63, z: -6.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 630405675}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 25, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 5, y: 0, z: 0}
 --- !u!81 &594160214
 AudioListener:
   m_ObjectHideFlags: 0
@@ -901,9 +911,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 1.9610577
+  m_Height: 2.0270944
   m_Direction: 1
-  m_Center: {x: 0, y: 1.0431478, z: 0}
+  m_Center: {x: 0, y: 1.0101295, z: 0}
 --- !u!1 &700166842
 GameObject:
   m_ObjectHideFlags: 0
