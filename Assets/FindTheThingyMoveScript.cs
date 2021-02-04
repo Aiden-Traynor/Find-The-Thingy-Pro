@@ -9,14 +9,17 @@ public class FindTheThingyMoveScript : MonoBehaviour
   Rigidbody R;
   public float JumpHeight;
   bool jumping = false;
+  Animator AV;
     // Start is called before the first frame update
     void Start()
     {
 
       Speed = 8f;
+      AV = GetComponent<Animator>();
       RotationSpeed = 130f;
       R = GetComponent<Rigidbody>();
       JumpHeight = 400f;
+
 
     }
 
@@ -28,11 +31,18 @@ public class FindTheThingyMoveScript : MonoBehaviour
       if (Input.GetKey(KeyCode.UpArrow)){
           //move forward line
           R.MovePosition(transform.position + transform.forward * Speed * Time.deltaTime);
+          AV.SetBool("Walk", true);
+
         }
         else if (Input.GetKey(KeyCode.DownArrow)) {
             //move back line
             R.MovePosition(transform.position - transform.forward * Speed * Time.deltaTime);
+            AV.SetBool("Walk", true);
           }
+          else {
+AV.SetBool("Walk", false);
+}
+
       if (Input.GetKey(KeyCode.LeftArrow)) {
           //rotate left line
           transform.Rotate(-Vector3.up * RotationSpeed * Time.deltaTime); /* note the minus sign */
