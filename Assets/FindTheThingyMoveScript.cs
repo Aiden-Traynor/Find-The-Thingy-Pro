@@ -10,6 +10,8 @@ public class FindTheThingyMoveScript : MonoBehaviour
   public float JumpHeight;
   bool jumping = false;
   Animator AV;
+  float sC;
+  int Gold = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
       RotationSpeed = 130f;
       R = GetComponent<Rigidbody>();
       JumpHeight = 400f;
+      sC = 5f;
 
 
     }
@@ -60,7 +63,37 @@ AV.SetBool("Walk", false);
 
         }
     }
-void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
+    {
+      if(other.gameObject.tag.Equals("Gold")) {
+        Gold = Gold + 1;
+        Destroy(other.gameObject);
+    }
+      else if(other.gameObject.tag.Equals("Boost")) {
+	       Speed = Speed * sC;
+         AV.SetBool("Fast", true);
+         StartCoroutine(SpeedUpCoroutine());
+         Destroy(other.gameObject);
+         }
+  else if(other.gameObject.tag.Equals("SlowTag")) {
+	     Speed = Speed / sC;
+       AV.SetBool("Slow", true);
+        StartCoroutine(SlowDownCoroutine());
+        Destroy(other.gameObject);
+
+ }
+    IEnumerator SpeedUpCoroutine() {
+      yield return new WaitForSeconds(5f);
+      AV.SetBool("fast", false);
+    }
+    IEnumerator SlowDownCoroutine() {
+      yield return new WaitForSeconds(5f);
+      AV.SetBool("Fast", false);
+      }
+
+    }
+
+    void OnCollisionEnter(Collision other)
 {
 		if(other.collider.tag.Equals("Ground")) //if we hit the floor, we are no longer jumping
 {
