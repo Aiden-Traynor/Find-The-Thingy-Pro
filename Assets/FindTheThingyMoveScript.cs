@@ -84,7 +84,7 @@ AV.SetBool("Walk", false);
  }
     IEnumerator SpeedUpCoroutine() {
       yield return new WaitForSeconds(5f);
-      AV.SetBool("fast", false);
+      AV.SetBool("Fast", false);
     }
     IEnumerator SlowDownCoroutine() {
       yield return new WaitForSeconds(5f);
