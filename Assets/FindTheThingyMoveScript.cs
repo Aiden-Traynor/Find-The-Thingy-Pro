@@ -82,17 +82,23 @@ AV.SetBool("Walk", false);
         Destroy(other.gameObject);
 
  }
-    IEnumerator SpeedUpCoroutine() {
-      yield return new WaitForSeconds(5f);
-      AV.SetBool("Fast", false);
-    }
-    IEnumerator SlowDownCoroutine() {
-      yield return new WaitForSeconds(5f);
-      AV.SetBool("Fast", false);
-      }
+
 
     }
+    IEnumerator SpeedUpCoroutine()
+    {
+        yield return new WaitForSeconds(5f);
+        AV.SetBool("Fast", false);
+        Speed = Speed / sC;
 
+    }
+    IEnumerator SlowDownCoroutine()
+    {
+        yield return new WaitForSeconds(5f);
+        AV.SetBool("Slow", false);
+        Speed = Speed * sC;
+
+    }
     void OnCollisionEnter(Collision other)
 {
 		if(other.collider.tag.Equals("Ground")) //if we hit the floor, we are no longer jumping
