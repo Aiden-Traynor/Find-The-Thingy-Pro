@@ -16,12 +16,12 @@ public class FindTheThingyMoveScript : MonoBehaviour
     void Start()
     {
 
-      Speed = 8f;
+      Speed = 14f;
       AV = GetComponent<Animator>();
       RotationSpeed = 130f;
       R = GetComponent<Rigidbody>();
-      JumpHeight = 400000f;
-      sC = 5f;
+      JumpHeight = 250f;
+      sC = 2f;
 
 
     }

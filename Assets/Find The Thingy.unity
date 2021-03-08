@@ -892,7 +892,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 917.5
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
@@ -1001,8 +1001,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594160212}
-  m_LocalRotation: {x: 0.030843573, y: 0.7064338, z: -0.030843573, w: 0.7064338}
-  m_LocalPosition: {x: -9.959999, y: 1.7500001, z: 0.38}
+  m_LocalRotation: {x: 0.043619405, y: 0, z: 0, w: 0.9990483}
+  m_LocalPosition: {x: 0.2, y: 1.7, z: -11.6}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1795468664}
@@ -2535,7 +2535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4dc84c0215a243a2bf28ebb58351aac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawn: {x: 30, y: 20, z: 48}
+  respawn: {x: 30, y: 5, z: 48}
 --- !u!65 &1607582228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2567,7 +2567,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 10758, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2605,7 +2605,7 @@ Transform:
   m_GameObject: {fileID: 1607582226}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 50, y: -1.7, z: 50}
-  m_LocalScale: {x: 100, y: 1, z: 100}
+  m_LocalScale: {x: 200, y: 1, z: 200}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -2624,6 +2624,7 @@ GameObject:
   - component: {fileID: 1795468661}
   - component: {fileID: 1795468660}
   - component: {fileID: 1795468659}
+  - component: {fileID: 1795468665}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -2738,6 +2739,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1795468665
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795468658}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1961207263
 GameObject:
   m_ObjectHideFlags: 0
