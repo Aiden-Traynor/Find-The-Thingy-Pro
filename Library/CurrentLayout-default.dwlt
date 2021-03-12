@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 121}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 84
+  controlID: 71
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 392}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 0
-  controlID: 82
+  controlID: 69
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 392}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 83
+  controlID: 70
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 447
     width: 1440
     height: 292
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 271}
+  m_MaxSize: {x: 10000, y: 10021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -290,7 +290,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -340,9 +340,9 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 171}
-      m_SelectedIDs: dac8ffff
-      m_LastClickedID: -14118
+      scrollPos: {x: 0, y: 219}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 46fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -467,9 +467,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15033.474, y: 49.799725, z: 1499.4313}
+    m_Target: {x: 14974.747, y: 44.77736, z: 1515.2742}
     speed: 2
-    m_Value: {x: 15033.474, y: 49.799725, z: 1499.4313}
+    m_Value: {x: 14974.747, y: 44.77736, z: 1515.2742}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -515,13 +515,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0282883, y: 0.8516228, z: 0.046296712, w: 0.5213658}
+    m_Target: {x: -0.035082553, y: 0.7702977, z: -0.042606972, w: -0.6353151}
     speed: 2
-    m_Value: {x: -0.028148899, y: 0.8531714, z: 0.046380736, w: 0.51880157}
+    m_Value: {x: -0.035082027, y: 0.77028614, z: -0.04260633, w: -0.6353056}
   m_Size:
-    m_Target: 33.195396
+    m_Target: 16.590906
     speed: 2
-    m_Value: 33.59858
+    m_Value: 16.920864
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -703,20 +703,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Bark textures pack/Bark 11
+    - Assets/laxer tree pkg/Textures
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Bark textures pack/Bark 11
+  - Assets/laxer tree pkg/Textures
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/oliveroswald/Documents/GitHub/Find-The-Thingy-Pro
+  m_LastProjectPath: /Users/aiden2021/Documents/GitHub/Find-The-Thingy-Pro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 37}
-    m_SelectedIDs: f0390000
-    m_LastClickedID: 14832
-    m_ExpandedIDs: 00000000f236000000370000fa39000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3c380000
+    m_LastClickedID: 14396
+    m_ExpandedIDs: 00000000423700004e3700005637000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -744,7 +744,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f2360000
+    m_ExpandedIDs: 0000000042370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -825,29 +825,4 @@ MonoBehaviour:
     y: 525
     width: 1147
     height: 271
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Failed to load
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
   m_ViewDataDictionary: {fileID: 0}
