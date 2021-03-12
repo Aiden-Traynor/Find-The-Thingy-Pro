@@ -788,7 +788,8 @@ PrefabInstance:
       propertyPath: m_WarningMessage
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5866666021909216657, guid: 30c0327af5b1c49fc98937a31d24dcf0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 30c0327af5b1c49fc98937a31d24dcf0, type: 3}
 --- !u!1 &594160212
 GameObject:
@@ -2508,6 +2509,7 @@ GameObject:
   - component: {fileID: 1795468659}
   - component: {fileID: 1795468665}
   - component: {fileID: 1795468666}
+  - component: {fileID: 1795468667}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Player
@@ -2632,7 +2634,7 @@ Animator:
   m_GameObject: {fileID: 1795468658}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8f80128e830a4582ab9613c3d974858, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2737,6 +2739,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!122 &1795468667
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795468658}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278252541
+  m_Size: 1
 --- !u!1 &1961207263
 GameObject:
   m_ObjectHideFlags: 0
