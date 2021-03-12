@@ -20,7 +20,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
     void Start()
     {
 
-      Speed = 18f;
+      Speed = 16f;
       AV = GetComponent<Animator>();
       RotationSpeed = 130f;
       R = GetComponent<Rigidbody>();
@@ -42,7 +42,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
     {
 
 
-      if (Input.GetKey(KeyCode.UpArrow)){
+      if ((Input.GetKey(KeyCode.UpArrow)) || (Input.GetKey(KeyCode.W))){
           //move forward line
           R.MovePosition(transform.position + transform.forward * Speed * Time.deltaTime);
           AV.SetBool("Walk", true);
@@ -52,7 +52,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
                     	}
 
         }
-        else if (Input.GetKey(KeyCode.DownArrow)) {
+        else if ((Input.GetKey(KeyCode.DownArrow)) || (Input.GetKey(KeyCode.S))){
             //move back line
             R.MovePosition(transform.position - transform.forward * Speed * Time.deltaTime);
             AV.SetBool("Walk", true);
@@ -71,11 +71,11 @@ if (ASV.isPlaying)
 
 }
 
-      if (Input.GetKey(KeyCode.LeftArrow)) {
+      if ((Input.GetKey(KeyCode.LeftArrow)) || (Input.GetKey(KeyCode.A))){
           //rotate left line
           transform.Rotate(-Vector3.up * RotationSpeed * Time.deltaTime); /* note the minus sign */
       }
-      else if (Input.GetKey(KeyCode.RightArrow)) {
+      else if ((Input.GetKey(KeyCode.RightArrow)) || (Input.GetKey(KeyCode.D))){
           //rotate right line
           transform.Rotate(Vector3.up * RotationSpeed * Time.deltaTime);
         }
