@@ -63,12 +63,11 @@ public class FindTheThingyMoveScript : MonoBehaviour
 
           }
           else {
-AV.SetBool("Walk", false);
-if (ASV.isPlaying)
+            AV.SetBool("Walk", false);
+            if (ASV.isPlaying)
             	{
                 		ASV.Stop();
             	}
-
 }
 
       if ((Input.GetKey(KeyCode.LeftArrow)) || (Input.GetKey(KeyCode.A))){
