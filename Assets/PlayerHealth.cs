@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     FindTheThingyMoveScript bms;
-    TwoDMove tdm;
     public int health;
     int maxHealth;
     public bool dead;
@@ -15,7 +14,6 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         bms = GetComponent<FindTheThingyMoveScript>();
-        tdm = GetComponent<TwoDMove>();
         health = 3;
         maxHealth = 3;
         t.text = "health: " + health;
@@ -39,7 +37,7 @@ public class PlayerHealth : MonoBehaviour
             if (health == 0)
             {
                 dead = true;
-                bms.Die();
+                //bms.Die();
             }
         }
     }
@@ -48,16 +46,9 @@ public class PlayerHealth : MonoBehaviour
     {
         if (health <= damage)
         {
-            if (tdm == null)
-            {
-                bms.Die();
+                //bms.Die();
 
-            }
-            else if(bms == null)
-            {
-                tdm.Die();
 
-            }
             health = 0;
         }
         else

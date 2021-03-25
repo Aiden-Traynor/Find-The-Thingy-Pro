@@ -19,7 +19,7 @@ public class RespawnScript : MonoBehaviour
 
     }
     void OnTriggerEnter(Collider other) {
-	  if(other.gameObject.tag.Equals("Player")) {
+	  if(other.gameObject.tag.Equals("Player") || other.gameObject.tag.Equals("enemy")) {
 		other.gameObject.transform.position = respawn;
 	}
 }
