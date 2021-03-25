@@ -12,7 +12,7 @@ public class EnemyAI : MonoBehaviour
 {
     bool engaged;
     NavMeshAgent nm;
-    GameObject player;
+    public GameObject player;
     bool wandering;
     bool inRange;
     float coolDown;
@@ -26,8 +26,7 @@ public class EnemyAI : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-      Debug.Log(player.GetComponent<PlayerHealth>() == null);
+    { 
         if (InRange())
         {
             Attack();
