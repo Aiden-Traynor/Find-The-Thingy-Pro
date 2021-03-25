@@ -1889,6 +1889,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 578982635}
   m_PrefabAsset: {fileID: 0}
+--- !u!122 &630405674
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630405673}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278255615
+  m_Size: 50
 --- !u!54 &630405677
 Rigidbody:
   m_ObjectHideFlags: 0
