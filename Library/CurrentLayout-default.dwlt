@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -1715
-    y: -571
+    x: 0
+    y: 45
     width: 1440
     height: 786
   m_ShowMode: 4
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 477, y: 392}
   m_MaxSize: {x: 12002, y: 14042}
   vertical: 0
-  controlID: 25
+  controlID: 106
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 477, y: 392}
   m_MaxSize: {x: 12002, y: 14042}
   vertical: 1
-  controlID: 26
+  controlID: 107
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 477, y: 121}
   m_MaxSize: {x: 12002, y: 4021}
   vertical: 0
-  controlID: 27
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,8 +322,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1256
-    y: -540
+    x: 459
+    y: 75
     width: 659
     height: 444
   m_ViewDataDictionary: {fileID: 0}
@@ -362,7 +362,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -415,16 +415,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
+    y: 75
     width: 458
     height: 444
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 169}
-      m_SelectedIDs: b6350000
-      m_LastClickedID: 13750
-      m_ExpandedIDs: 46fbffff16340000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -469,8 +469,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 460
-    y: 19
+    x: 459
+    y: 75
     width: 659
     height: 444
   m_ViewDataDictionary: {fileID: 0}
@@ -484,9 +484,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 93.69004, y: 3.9713979, z: 7.0516033}
+    m_Target: {x: 36.37, y: 0.92146754, z: 55.664406}
     speed: 2
-    m_Value: {x: 93.69004, y: 3.9713979, z: 7.0516033}
+    m_Value: {x: 36.37, y: 0.92146754, z: 55.664406}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -532,13 +532,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2535571, y: -0.298931, z: -0.08285491, w: 0.9162995}
+    m_Target: {x: 0.0052923104, y: 0.986648, z: -0.15973055, w: 0.03326114}
     speed: 2
-    m_Value: {x: -0.2535418, y: -0.29891297, z: -0.08284991, w: 0.91624427}
+    m_Value: {x: 0.0052919867, y: 0.9865877, z: -0.1597208, w: 0.033259105}
   m_Size:
-    m_Target: 0.99480695
+    m_Target: 1.2920239
     speed: 2
-    m_Value: 0.99480695
+    m_Value: 1.2920239
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -725,8 +725,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1121
-    y: 19
+    x: 1120
+    y: 75
     width: 319
     height: 444
   m_ViewDataDictionary: {fileID: 0}
@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 484
+    y: 540
     width: 1440
     height: 250
   m_ViewDataDictionary: {fileID: 0}
@@ -787,14 +787,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/oliveroswald/Documents/GitHub/Find-The-Thingy-Pro
+  m_LastProjectPath: /Users/aiden2021/Documents/GitHub/Find-The-Thingy-Pro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 30}
-    m_SelectedIDs: 7c390000
-    m_LastClickedID: 14716
-    m_ExpandedIDs: 000000007c39000000ca9a3b
+    m_SelectedIDs: 86390000
+    m_LastClickedID: 14726
+    m_ExpandedIDs: 000000008639000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -822,7 +822,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c390000
+    m_ExpandedIDs: 0000000086390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -849,7 +849,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000034380000ca37000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
