@@ -133,7 +133,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
-        if (other.collider.tag.Equals("Ground")) //if we hit the floor, we are no longer jumping
+        if (other.collider.tag.Equals("Ground") || other.collider.tag.Equals("enemy")) //if we hit the floor, we are no longer jumping
         {
             jumping = false;
         }
