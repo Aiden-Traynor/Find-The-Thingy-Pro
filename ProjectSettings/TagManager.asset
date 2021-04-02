@@ -9,6 +9,7 @@ TagManager:
   - Gold
   - SlowTag
   - enemy
+  - Thingy
   layers:
   - Default
   - TransparentFX

@@ -16,13 +16,13 @@ public class PlayerHealth : MonoBehaviour
         bms = GetComponent<FindTheThingyMoveScript>();
         health = 3;
         maxHealth = 3;
-        t.text = "health: " + health;
+        t.text = "Health: " + health;
     }
 
     // Update is called once per frame
     void Update()
     {
-        t.text = "health: " + health;
+        t.text = "Health: " + health;
 
     }
 

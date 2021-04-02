@@ -11,7 +11,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
     bool jumping = false;
     Animator AV;
     float sC;
-    int Gold = 0;
+    public int Gold = 0;
     AudioSource ASV;
     float walkPitch = 1f; /* change the 1 to your walk pitch value, keep the ‘f’ at the end */
     float runPitch = 1f; /* change the 1 to your run pitch value, keep the ‘f’ at the end */
