@@ -8590,6 +8590,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92d2da4774dd04df3993121ccbb3b466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Level: Level 2
 --- !u!65 &1874613535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8676,6 +8677,7 @@ GameObject:
   - component: {fileID: 1881583805}
   - component: {fileID: 1881583804}
   - component: {fileID: 1881583803}
+  - component: {fileID: 1881583807}
   m_Layer: 0
   m_Name: Cube (33)
   m_TagString: Thingy
@@ -8757,6 +8759,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1881583807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881583802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92d2da4774dd04df3993121ccbb3b466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Level: Level 2
 --- !u!1 &1902704092
 GameObject:
   m_ObjectHideFlags: 0

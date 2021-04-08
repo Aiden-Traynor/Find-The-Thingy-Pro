@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 public class HalfWinGame : MonoBehaviour
 {
   HighScoreScript highScore;
+  public string Level;
     // Start is called before the first frame update
     void Start()
     {
-      highScore = GameObject.FindGameObjectWithTag("Thingy").GetComponent<HighScoreScript>();
+    //  highScore = GameObject.FindGameObjectWithTag("Thingy").GetComponent<HighScoreScript>();
 
 
     }
@@ -23,15 +24,15 @@ public class HalfWinGame : MonoBehaviour
     {
       if(other.gameObject.tag.Equals("Player"))
       {
-        int Gold = other.gameObject.GetComponent<FindTheThingyMoveScript>().Gold;
+      /*  int Gold = other.gameObject.GetComponent<FindTheThingyMoveScript>().Gold;
 		    float time = Time.timeSinceLevelLoad;
         highScore.CalculateScore(Gold, time);  /* replace highScore with your variable name, and CalculateScore with whatever you named your calculate function */
 
-      if (other.gameObject.GetComponent<FindTheThingyMoveScript>().Gold == 1)
-      {
-        SceneManager.LoadScene("Level 2");
-}
-}
+      //if (other.gameObject.GetComponent<FindTheThingyMoveScript>().Gold == 1)
+    //  {
 
-}
+        SceneManager.LoadScene(Level);
+      }
+    }
+
 }
