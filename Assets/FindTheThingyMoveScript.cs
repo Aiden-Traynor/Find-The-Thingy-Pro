@@ -29,6 +29,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
         ASV = GetComponent<AudioSource>();
         ASV.pitch = walkPitch;
 
+
     }
 
     // Update is called once per frame
@@ -104,6 +105,13 @@ public class FindTheThingyMoveScript : MonoBehaviour
             Speed = Speed / sC;
             AV.SetBool("Slow", true);
             StartCoroutine(SlowDownCoroutine());
+            Destroy(other.gameObject);
+
+        }
+        else if (other.gameObject.tag.Equals("Corn"))
+        {
+
+            GetComponent<PlayerHealth>().LiveAgain(1);
             Destroy(other.gameObject);
 
         }

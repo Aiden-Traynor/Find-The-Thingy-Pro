@@ -56,6 +56,15 @@ public class PlayerHealth : MonoBehaviour
             health = health - damage;
         }
     }
+    public void LiveAgain(int h){
+      if(health + h >= maxHealth){
+        health = maxHealth;
+      }
+      else{
+        health = health + h;
+      }
+    }
+
 
     public void Reset()
     {

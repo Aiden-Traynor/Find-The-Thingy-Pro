@@ -10,6 +10,8 @@ TagManager:
   - SlowTag
   - enemy
   - Thingy
+  - Health
+  - Corn
   layers:
   - Default
   - TransparentFX
