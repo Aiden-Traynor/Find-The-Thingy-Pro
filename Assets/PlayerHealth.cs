@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +17,8 @@ public class PlayerHealth : MonoBehaviour
         health = 3;
         maxHealth = 3;
         t.text = "Health: " + health;
-    }
+        
+}   
 
     // Update is called once per frame
     void Update()

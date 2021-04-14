@@ -1,8 +1,9 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// Score And Time Calculator highScore;
 public class HalfWinGame : MonoBehaviour
 {
   HighScoreScript highScore;
@@ -10,7 +11,7 @@ public class HalfWinGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    //  highScore = GameObject.FindGameObjectWithTag("Thingy").GetComponent<HighScoreScript>();
+      // highScore = GameObject.FindGameObjectWithTag("ScoreAndTimeCalculator").GetComponent<HighScoreCalculator>();
 
 
     }

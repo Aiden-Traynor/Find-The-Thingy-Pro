@@ -16,7 +16,7 @@ DontDestroyOnLoad(this);
 	highScore = 0;
 	currentScore = 0;
 	coinWeight = 1; /* change the 1 to whatever you want to weight coins with */
-timeWeight = 1; /* change the 1 to whatever you want to weight time with, keep in mind big time = bad! */
+        timeWeight = 1; /* change the 1 to whatever you want to weight time with, keep in mind big time = bad! */
         
     }
 

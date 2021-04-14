@@ -12,6 +12,7 @@ TagManager:
   - Thingy
   - Health
   - Corn
+  - Score And Time Calculator
   layers:
   - Default
   - TransparentFX
