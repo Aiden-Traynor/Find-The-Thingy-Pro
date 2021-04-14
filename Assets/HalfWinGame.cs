@@ -31,7 +31,7 @@ public class HalfWinGame : MonoBehaviour
 
       //if (other.gameObject.GetComponent<FindTheThingyMoveScript>().Gold == 1)
     //  {
-
+        GameObject.FindGameObjectWithTag("Score And Time Calculator").GetComponent<TimeInGame>().UpdateTime();
         SceneManager.LoadScene(Level);
       }
     }
