@@ -42,6 +42,21 @@ public class PlayerHealth : MonoBehaviour
             }
         }
     }
+void OnTriggerEnter(Collider c)
+    {
+        if (c.gameObject.tag.Equals("enemy"))
+        {
+            if (health > 0)
+            {
+                health = health - 1;
+            }
+            if (health == 0)
+            {
+                dead = true;
+                //bms.Die();
+            }
+        }
+    }
 
     public void Hit(int damage)
     {
