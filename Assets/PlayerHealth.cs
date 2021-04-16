@@ -17,8 +17,8 @@ public class PlayerHealth : MonoBehaviour
         health = 3;
         maxHealth = 3;
         t.text = "Health: " + health;
-        
-}   
+
+}
 
     // Update is called once per frame
     void Update()
@@ -44,7 +44,7 @@ public class PlayerHealth : MonoBehaviour
     }
 void OnTriggerEnter(Collider c)
     {
-        if (c.gameObject.tag.Equals("enemy"))
+        if (c.gameObject.tag.Equals("void"))
         {
             if (health > 0)
             {

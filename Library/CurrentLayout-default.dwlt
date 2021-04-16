@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -1561
-    y: -556
+    x: 0
+    y: 45
     width: 1322
     height: 735
   m_ShowMode: 4
@@ -111,10 +111,10 @@ MonoBehaviour:
     y: 30
     width: 1322
     height: 685
-  m_MinSize: {x: 478, y: 392}
-  m_MaxSize: {x: 12003, y: 14042}
+  m_MinSize: {x: 479, y: 392}
+  m_MaxSize: {x: 12004, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 16
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 0
     width: 1322
     height: 685
-  m_MinSize: {x: 478, y: 392}
-  m_MaxSize: {x: 12003, y: 14042}
+  m_MinSize: {x: 479, y: 392}
+  m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 103
+  controlID: 17
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,10 +162,10 @@ MonoBehaviour:
     y: 0
     width: 1322
     height: 373
-  m_MinSize: {x: 478, y: 121}
-  m_MaxSize: {x: 12003, y: 4021}
+  m_MinSize: {x: 479, y: 121}
+  m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 104
+  controlID: 18
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 414
     height: 373
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -296,10 +296,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1134
+    x: 1031
     y: 75
-    width: 305
-    height: 442
+    width: 290
+    height: 352
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -322,8 +322,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1147
-    y: -526
+    x: 414
+    y: 75
     width: 615
     height: 352
   m_ViewDataDictionary: {fileID: 0}
@@ -362,7 +362,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -414,31 +414,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1561
-    y: -526
+    x: 0
+    y: 75
     width: 413
     height: 352
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f6680000
-      m_LastClickedID: 26870
-      m_ExpandedIDs: 66bbffff14deffff62ecffff16f6ffff46fbffff2e5d00005e5d0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: f837ffff0cc3ffff54d3ffffa4e4ffff46fbffffaa3500009e360000647900009479000094890000888a0000dc9d0000249e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Time In Game
+        m_OriginalName: Time In Game
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 31402
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -469,8 +469,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1147
-    y: -526
+    x: 414
+    y: 75
     width: 615
     height: 352
   m_ViewDataDictionary: {fileID: 0}
@@ -484,9 +484,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 24.935297, y: 9.002177, z: 92.48916}
+    m_Target: {x: -2.0203438, y: 18.66324, z: 73.44521}
     speed: 2
-    m_Value: {x: 24.935297, y: 9.002177, z: 92.48916}
+    m_Value: {x: -2.0203438, y: 18.66324, z: 73.44521}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -532,13 +532,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.013386825, y: -0.14562482, z: 0.0017491558, w: 0.9893829}
+    m_Target: {x: 0.07915921, y: -0.89592475, z: 0.17688651, w: 0.4000543}
     speed: 2
-    m_Value: {x: 0.013385036, y: -0.14560536, z: 0.001748922, w: 0.9892507}
+    m_Value: {x: 0.07914814, y: -0.89579946, z: 0.17686178, w: 0.39999837}
   m_Size:
-    m_Target: 20.026085
+    m_Target: 61.311382
     speed: 2
-    m_Value: 20.026085
+    m_Value: 61.311382
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -584,8 +584,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1147
-    y: -526
+    x: 414
+    y: 75
     width: 615
     height: 352
   m_ViewDataDictionary: {fileID: 0}
@@ -678,11 +678,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: c0eabae687e2e49f492ee3a0878a3d9c,
+  m_AnimatorController: {fileID: 9100000, guid: f6755b4f0940547bda5b6281662a1b77,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 9138388187098361199, guid: c0eabae687e2e49f492ee3a0878a3d9c,
-      type: 2}
+  - m_Target: {fileID: 110700000, guid: f6755b4f0940547bda5b6281662a1b77, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -742,8 +741,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -530
-    y: -526
+    x: 1031
+    y: 75
     width: 290
     height: 352
   m_ViewDataDictionary: {fileID: 0}
@@ -758,7 +757,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 1439
+  m_LastVerticalScrollValue: 150.00092
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -780,8 +779,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1561
-    y: -153
+    x: 0
+    y: 448
     width: 1322
     height: 291
   m_ViewDataDictionary: {fileID: 0}
@@ -804,14 +803,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/oliveroswald/Documents/GitHub/Find-The-Thingy-Pro
+  m_LastProjectPath: /Users/aiden2021/Documents/GitHub/Find-The-Thingy-Pro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 37}
-    m_SelectedIDs: 6c3b0000
-    m_LastClickedID: 15212
-    m_ExpandedIDs: 000000006c3b000000ca9a3b
+    m_SelectedIDs: 6e3b0000
+    m_LastClickedID: 15214
+    m_ExpandedIDs: 000000006e3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -839,7 +838,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c3b0000
+    m_ExpandedIDs: 000000006e3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -891,7 +890,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 121}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115

@@ -13,6 +13,7 @@ TagManager:
   - Health
   - Corn
   - Score And Time Calculator
+  - void
   layers:
   - Default
   - TransparentFX
