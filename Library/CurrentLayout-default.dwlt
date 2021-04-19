@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 392}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 0
-  controlID: 16
+  controlID: 25
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 392}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 17
+  controlID: 26
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 479, y: 121}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 18
+  controlID: 91
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -424,21 +424,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f837ffff0cc3ffff54d3ffffa4e4ffff46fbffffaa3500009e360000647900009479000094890000888a0000dc9d0000249e0000
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Time In Game
-        m_OriginalName: Time In Game
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 31402
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -484,9 +484,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.0203438, y: 18.66324, z: 73.44521}
+    m_Target: {x: 82.467545, y: 26.74163, z: 100.5}
     speed: 2
-    m_Value: {x: -2.0203438, y: 18.66324, z: 73.44521}
+    m_Value: {x: 82.467545, y: 26.74163, z: 100.5}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -532,13 +532,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.07915921, y: -0.89592475, z: 0.17688651, w: 0.4000543}
+    m_Target: {x: 0.14826924, y: -0.7999623, z: 0.22002505, w: 0.5384658}
     speed: 2
-    m_Value: {x: 0.07914814, y: -0.89579946, z: 0.17686178, w: 0.39999837}
+    m_Value: {x: 0.1482485, y: -0.79985034, z: 0.21999426, w: 0.53839046}
   m_Size:
-    m_Target: 61.311382
+    m_Target: 20.3993
     speed: 2
-    m_Value: 61.311382
+    m_Value: 20.3993
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -645,14 +645,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.5533568
+    - e00: 0.56768465
       e01: 0
       e02: 0
-      e03: -37.909203
+      e03: -36.91911
       e10: 0
-      e11: 0.5533568
+      e11: 0.56768465
       e12: 0
-      e13: 96.71813
+      e13: 62.94136
       e20: 0
       e21: 0
       e22: 1
@@ -661,14 +661,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.54522
+    - e00: 0.5586943
       e01: 0
       e02: 0
-      e03: 73.73219
+      e03: 61.864998
       e10: 0
-      e11: 0.54522
+      e11: 0.5586943
       e12: 0
-      e13: 211.93893
+      e13: 184.55124
       e20: 0
       e21: 0
       e22: 1
@@ -678,10 +678,11 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: f6755b4f0940547bda5b6281662a1b77,
+  m_AnimatorController: {fileID: 9100000, guid: dc00d5be66d564c4e8c04169b129bf86,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 110700000, guid: f6755b4f0940547bda5b6281662a1b77, type: 2}
+  - m_Target: {fileID: 1107794749852278504, guid: dc00d5be66d564c4e8c04169b129bf86,
+      type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -757,7 +758,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 150.00092
+  m_LastVerticalScrollValue: 0
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -797,20 +798,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/VoxelAnimals/Assets/Animations
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/VoxelAnimals/Assets/Animations
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/aiden2021/Documents/GitHub/Find-The-Thingy-Pro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 37}
-    m_SelectedIDs: 6e3b0000
-    m_LastClickedID: 15214
-    m_ExpandedIDs: 000000006e3b000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 523f0000
+    m_LastClickedID: 16210
+    m_ExpandedIDs: 000000006e3b0000903b0000503f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -919,29 +920,4 @@ MonoBehaviour:
     y: -153
     width: 1322
     height: 291
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12059, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEditor:UnityEditor.Experimental.TerrainAPI:PaintTextureTool
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Failed to load
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 320
-    height: 550
   m_ViewDataDictionary: {fileID: 0}
