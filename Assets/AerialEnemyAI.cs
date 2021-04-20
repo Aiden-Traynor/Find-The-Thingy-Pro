@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -59,6 +59,7 @@ public class AerialEnemyAI : MonoBehaviour
         else if (!wait && dive && !player.GetComponent<PlayerHealth>().dead)
         {
             diving = true;
+	    GetComponent<Animator>().SetBool("isAttacking", true);
             dive = false;
         }
         else if (diving)
@@ -71,6 +72,7 @@ public class AerialEnemyAI : MonoBehaviour
                 nm.baseOffset = 0;
                 diving = false;
                 returning = true;
+		GetComponent<Animator>().SetBool("isAttacking", false);
             }
         }
         else if (engaged && !player.GetComponent<PlayerHealth>().dead)

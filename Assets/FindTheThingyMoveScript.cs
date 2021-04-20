@@ -20,7 +20,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
     void Start()
     {
 
-        Speed = 16f;
+        Speed = 12f;
         AV = GetComponent<Animator>();
         RotationSpeed = 135f;
         R = GetComponent<Rigidbody>();
