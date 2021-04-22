@@ -16,6 +16,7 @@ public class PlayerHealth : MonoBehaviour
         bms = GetComponent<FindTheThingyMoveScript>();
         health = 3;
         maxHealth = 3;
+t = GameObject.FindGameObjectWithTag("Health").GetComponent<Text>(); 
         t.text = "Health: " + health;
 
 }
