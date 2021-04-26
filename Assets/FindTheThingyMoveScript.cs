@@ -24,7 +24,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
         AV = GetComponent<Animator>();
         RotationSpeed = 135f;
         R = GetComponent<Rigidbody>();
-        JumpHeight = 265f;
+        JumpHeight = 300f;
         sC = 2f;
         ASV = GetComponent<AudioSource>();
         ASV.pitch = walkPitch;

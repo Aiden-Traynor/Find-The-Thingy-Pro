@@ -67,9 +67,9 @@ public class AerialEnemyAI : MonoBehaviour
             //play your dive animation here! I would make sure it doesn't loop
 
             nm.baseOffset -= Time.deltaTime * nm.speed * diveSpeedMod;
-            if (nm.baseOffset < 0)
+            if (nm.baseOffset < -0.1f)
             {
-                nm.baseOffset = 0;
+                nm.baseOffset = -0.1f;
                 diving = false;
                 returning = true;
 		GetComponent<Animator>().SetBool("isAttacking", false);
