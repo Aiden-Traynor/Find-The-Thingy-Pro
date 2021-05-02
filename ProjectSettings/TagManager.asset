@@ -14,6 +14,7 @@ TagManager:
   - Corn
   - Score And Time Calculator
   - void
+  - FTTP Music
   layers:
   - Default
   - TransparentFX
