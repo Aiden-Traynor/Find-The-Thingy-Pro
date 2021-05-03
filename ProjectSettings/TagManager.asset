@@ -15,6 +15,7 @@ TagManager:
   - Score And Time Calculator
   - void
   - FTTP Music
+  - Dead
   layers:
   - Default
   - TransparentFX
