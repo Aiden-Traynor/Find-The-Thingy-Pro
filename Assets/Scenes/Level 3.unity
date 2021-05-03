@@ -5511,7 +5511,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.75
+  m_Radius: 7
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &731625897
 GameObject:
@@ -7111,7 +7111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 221f97476fc29794da96ee45e1fb7f2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.15
+      value: 10.15
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 221f97476fc29794da96ee45e1fb7f2e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13431,7 +13431,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 0.1
-  m_BaseOffset: 2
+  m_BaseOffset: 3
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!135 &1856189059
@@ -13445,7 +13445,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 3.75
+  m_Radius: 7
   m_Center: {x: 0, y: -0.89045274, z: 0}
 --- !u!136 &1856189060
 CapsuleCollider:
