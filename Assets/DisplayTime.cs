@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +19,6 @@ public class DisplayTime : MonoBehaviour
     void Update()
     {
 
-      t.text = "Time: " + (Time.timeSinceLevelLoad - tig.TimeInMenu);
+      t.text = "Time: " + (Time.timeSinceLevelLoad + tig.TotalTime - tig.TimeInMenu);
     }
 }
