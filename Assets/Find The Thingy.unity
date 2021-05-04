@@ -1940,37 +1940,37 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13012
+      value: 11661
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 142
+      value: -223
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 219
+      value: 729
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.122787856
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.6963643
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.122787856
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6963643
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
@@ -1980,7 +1980,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -20
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 30c0327af5b1c49fc98937a31d24dcf0,
         type: 3}
@@ -2435,7 +2435,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 10000
   field of view: 40
   orthographic: 0
   orthographic size: 5
@@ -2907,7 +2907,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 20000
   field of view: 70.00001
   orthographic: 0
   orthographic size: 5
@@ -4351,7 +4351,7 @@ GameObject:
   - component: {fileID: 964369297}
   - component: {fileID: 964369296}
   - component: {fileID: 964369295}
-  - component: {fileID: 964369299}
+  - component: {fileID: 964369300}
   m_Layer: 0
   m_Name: Main Menu Terrain
   m_TagString: Untagged
@@ -4464,18 +4464,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!122 &964369299
-Halo:
+--- !u!54 &964369300
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964369294}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 4278244607
-  m_Size: 1000
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1 &967620336
 GameObject:
   m_ObjectHideFlags: 0
