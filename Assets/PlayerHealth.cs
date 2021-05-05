@@ -10,6 +10,7 @@ public class PlayerHealth : MonoBehaviour
     int maxHealth;
     public bool dead;
     public Text t;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,7 +55,7 @@ void OnTriggerEnter(Collider c)
             if (health == 0)
             {
                 dead = true;
-                //bms.Die();
+              //  bms.Die();
             }
         }
     }
@@ -88,10 +89,8 @@ void OnTriggerEnter(Collider c)
         health = maxHealth;
         dead = false;
     }
-    public void DeadCanvas()
+    public void Die()
     {
-      if(health == 0){
-        GameObject.FindGameObjectWithTag("Dead").GetComponent<Text>();
+      FindGameObjectWithTag("Dead").GetComponent<ChangeCanvas>();
       }
     }
-}
