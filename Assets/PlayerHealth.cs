@@ -40,7 +40,7 @@ t = GameObject.FindGameObjectWithTag("Health").GetComponent<Text>();
             if (health == 0)
             {
                 dead = true;
-                //bms.Die();
+                bms.Die();
             }
         }
     }
