@@ -40,7 +40,7 @@ t = GameObject.FindGameObjectWithTag("Health").GetComponent<Text>();
             if (health == 0)
             {
                 dead = true;
-                bms.Die();
+                //bms.Die();
             }
         }
     }
@@ -55,7 +55,7 @@ void OnTriggerEnter(Collider c)
             if (health == 0)
             {
                 dead = true;
-              //  bms.Die();
+                //bms.Die();
             }
         }
     }
@@ -91,6 +91,6 @@ void OnTriggerEnter(Collider c)
     }
     public void Die()
     {
-      FindGameObjectWithTag("Dead").GetComponent<ChangeCanvas>();
+      GameObject.FindGameObjectWithTag("Dead").GetComponent<ChangeCanvas>();
       }
     }

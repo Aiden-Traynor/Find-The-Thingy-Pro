@@ -8084,14 +8084,6 @@ MonoBehaviour:
   health: 3
   dead: 0
   t: {fileID: 601440849}
---- !u!81 &1601509259
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601509251}
-  m_Enabled: 1
 --- !u!1 &1607582226
 GameObject:
   m_ObjectHideFlags: 0

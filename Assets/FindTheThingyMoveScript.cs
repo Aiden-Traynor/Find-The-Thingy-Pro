@@ -117,17 +117,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
 
         }
 
-
       }
-         //void Die()
-
-            //{
-              //if (health == 0)
-
-            //  FindGameObjectWithTag("Dead").GetComponent<ChangeCanvas>();
-              //}
-
-    }
     IEnumerator SpeedUpCoroutine()
     {
         ASV.pitch = runPitch; /* make sure this comes before the yield return statement */
@@ -135,7 +125,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
         AV.SetBool("Fast", false);
         Speed = Speed / sC;
         ASV.pitch = walkPitch;
-}
+      }
 
     IEnumerator SlowDownCoroutine()
     {
@@ -155,3 +145,4 @@ public class FindTheThingyMoveScript : MonoBehaviour
             jumping = false;
         }
     }
+  }
