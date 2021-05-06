@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     FindTheThingyMoveScript bms;
     public int health;
     int maxHealth;
-    public bool dead;
+    public bool dead = true;
     public Text t;
 
     // Start is called before the first frame update
