@@ -6,9 +6,12 @@ public class FindTheThingyMoveScript : MonoBehaviour
 {
     public float Speed;
     public float RotationSpeed;
+    public Canvas YouDied;
+    public Canvas NotDead;   
     Rigidbody R;
     public float JumpHeight;
     bool jumping = false;
+    bool frozen = false;
     Animator AV;
     float sC;
     public int Gold = 0;
@@ -145,4 +148,8 @@ public class FindTheThingyMoveScript : MonoBehaviour
             jumping = false;
         }
     }
+    public void die(){
+    
+}
+
   }
