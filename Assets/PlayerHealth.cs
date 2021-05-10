@@ -40,7 +40,7 @@ t = GameObject.FindGameObjectWithTag("Health").GetComponent<Text>();
             if (health == 0)
             {
                 dead = true;
-                //bms.Die();
+                bms.die();
             }
         }
     }
@@ -55,7 +55,7 @@ void OnTriggerEnter(Collider c)
             if (health == 0)
             {
                 dead = true;
-                //bms.Die();
+                bms.die();
             }
         }
     }
@@ -64,7 +64,7 @@ void OnTriggerEnter(Collider c)
     {
         if (health <= damage)
         {
-                //bms.Die();
+                bms.die();
 
 
             health = 0;
@@ -89,8 +89,4 @@ void OnTriggerEnter(Collider c)
         health = maxHealth;
         dead = false;
     }
-    public void Die()
-    {
-      GameObject.FindGameObjectWithTag("Dead").GetComponent<ChangeCanvas>();
-      }
-    }
+  }

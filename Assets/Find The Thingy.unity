@@ -3156,7 +3156,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &633446232
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3223,7 +3223,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633446231}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 594160215}
@@ -8250,6 +8250,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 12
   RotationSpeed: 130
+  YouDied: {fileID: 633446235}
+  NotDead: {fileID: 1066881707}
   JumpHeight: 120
   Gold: 0
 --- !u!4 &1601509253 stripped

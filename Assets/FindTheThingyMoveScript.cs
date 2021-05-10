@@ -7,7 +7,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
     public float Speed;
     public float RotationSpeed;
     public Canvas YouDied;
-    public Canvas NotDead;   
+    public Canvas NotDead;
     Rigidbody R;
     public float JumpHeight;
     bool jumping = false;
@@ -39,6 +39,9 @@ public class FindTheThingyMoveScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!frozen) {
+
+
         if ((Input.GetKey(KeyCode.UpArrow)) || (Input.GetKey(KeyCode.W)))
         {
             //move forward line
@@ -88,7 +91,7 @@ public class FindTheThingyMoveScript : MonoBehaviour
 
 
         }
-
+      }
     }
     void OnTriggerEnter(Collider other)
     {
@@ -149,7 +152,10 @@ public class FindTheThingyMoveScript : MonoBehaviour
         }
     }
     public void die(){
-    
+
+    NotDead.enabled = false;
+    YouDied.enabled = true;
+    frozen = true;
 }
 
   }
