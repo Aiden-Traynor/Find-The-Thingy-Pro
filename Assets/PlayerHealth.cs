@@ -17,7 +17,9 @@ public class PlayerHealth : MonoBehaviour
         bms = GetComponent<FindTheThingyMoveScript>();
         health = 3;
         maxHealth = 3;
-t = GameObject.FindGameObjectWithTag("Health").GetComponent<Text>();
+        GameObject[] ts = GameObject.FindGameObjectsWithTag("Health");
+        Debug.Log(ts.Length);
+        t = ts[0].GetComponent<Text>();
         t.text = "Health: " + health;
 
 }
@@ -25,6 +27,7 @@ t = GameObject.FindGameObjectWithTag("Health").GetComponent<Text>();
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(health + " of " + this.gameObject.name);
         t.text = "Health: " + health;
 
     }
