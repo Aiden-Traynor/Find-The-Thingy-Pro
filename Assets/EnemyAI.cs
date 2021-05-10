@@ -26,7 +26,7 @@ public class EnemyAI : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    { 
+    {
         if (InRange())
         {
             Attack();
