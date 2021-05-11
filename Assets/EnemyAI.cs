@@ -45,7 +45,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (!nm.hasPath)
         {
-            nm.SetDestination(new Vector3(Random.Range(5, 95), 1, Random.Range(5, 95)));
+            nm.SetDestination(new Vector3(Random.Range(2, 98), 1, Random.Range(2, 98)));
         }
     }
 
