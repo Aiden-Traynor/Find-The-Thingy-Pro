@@ -17,6 +17,7 @@ public class RestartGame : MonoBehaviour
         
     }
 public void restart(){
+GameObject.FindGameObjectWithTag("Score And Time Calculator").GetComponent<TimeInGame>().reset();
 	SceneManager.LoadScene("Find The Thingy");
 }
 }
