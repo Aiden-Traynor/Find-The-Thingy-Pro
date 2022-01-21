@@ -10,10 +10,10 @@ public class TimeInGame : MonoBehaviour
   public float TotalTime;
   public float BestTime;
   public static TimeInGame instance;
-//To undo the errors, get rid of the 2s and comment the 3 lines below this
-int TimeInMenu2 = integer(TimeInMenu);
-int TotalTime2 = integer(TotalTime);
-int BestTime2 = integer(BestTime);
+//To undo the errors, get rid of the 2s and comment the 3 lines below this....I brokeeded the game
+//public int TimeInMenu2 = TimeInMenu;
+//public int TotalTime2 = TotalTime;
+//public int BestTime2 = BestTime;
 
 void Awake(){
   if(instance == null){
@@ -28,9 +28,9 @@ DontDestroyOnLoad(this);
     void Start()
     {
 
-        TotalTime2 = 0;
-        TimeInMenu2 = 0;
-        BestTime2 = TotalTime;
+        //TotalTime2 = 0;
+        //TimeInMenu2 = 0;
+      //  BestTime2 = TotalTime;
     }
 
     // Update is called once per frame
@@ -39,14 +39,14 @@ DontDestroyOnLoad(this);
 
     }
     public void reset(){
-    TimeInMenu2 = 0;
-    TotalTime2 = 0;
+  //  TimeInMenu2 = 0;
+    //TotalTime2 = 0;
 
     }
     public void StartTimer(){
-      TimeInMenu2 = Time.timeSinceLevelLoad;
+      TimeInMenu/*2*/ = Time.timeSinceLevelLoad;
     }
     public void UpdateTime(){
-      TotalTime2 += Time.timeSinceLevelLoad;
+      TotalTime/*2*/ += Time.timeSinceLevelLoad;
     }
 }

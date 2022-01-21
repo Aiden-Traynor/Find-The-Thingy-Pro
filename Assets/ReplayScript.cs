@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ReplayScript : MonoBehaviour
+
 {
+  public float TotalTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,10 @@ public class ReplayScript : MonoBehaviour
     {
 
     }
+
+    public void UpdateTime(){
+          TotalTime/*2*/ += Time.timeSinceLevelLoad;
+        }
 
     public void Replay()
     {
