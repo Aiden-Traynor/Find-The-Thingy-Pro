@@ -16,9 +16,9 @@ int TotalTime2 = integer(TotalTime);
 int BestTime2 = integer(BestTime);
 
 void Awake(){
-if(instance == null){
-instance = this;
-}
+  if(instance == null){
+    instance = this;
+  }
 else{
 Destroy(gameObject);
 }
