@@ -9,6 +9,7 @@ public class TimeInGame : MonoBehaviour
   public float TimeInMenu;
   public float TotalTime;
   public float BestTime;
+  //public float Time = Time2;
   public static TimeInGame instance;
 //To undo the errors, get rid of the 2s and comment the 3 lines below this....I brokeeded the game
 //public int TimeInMenu2 = TimeInMenu;
@@ -46,7 +47,13 @@ DontDestroyOnLoad(this);
     public void StartTimer(){
       TimeInMenu/*2*/ = Time.timeSinceLevelLoad;
     }
+
     public void UpdateTime(){
       TotalTime/*2*/ += Time.timeSinceLevelLoad;
+
     }
+    //public void Time(){
+      //Time2 = Math.Floor();
+    
+
 }
