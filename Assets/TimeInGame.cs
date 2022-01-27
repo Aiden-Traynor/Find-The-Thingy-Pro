@@ -52,8 +52,12 @@ DontDestroyOnLoad(this);
       TotalTime/*2*/ += Time.timeSinceLevelLoad;
 
     }
+    //public instance Math.floor() {
+    //  TotalTime/*2*/ += Time.timeSinceLevelLoad;
+    //}
+
     //public void Time(){
       //Time2 = Math.Floor();
-    
+
 
 }
